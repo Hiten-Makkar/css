@@ -1,0 +1,30 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:rgb(107, 107, 219);
+    border: 2px solid black;
+    display: inline-block;
+    /* inline_block mein divs ko utni hi jagah milegi jitni unhe chiye */
+}
+#box1{
+    position: static;
+    /* static means default position */
+}
+#box2{
+    position:relative;
+    /* relative to itself */
+    top: 20px;
+    left: 10px;
+}
+#box3{
+    position:sticky;
+    /* position: absolute; */
+    /* absolute means position relative to its ancestor */
+    top:0px;
+    left:20px;
+}   
+#box4{
+    position:fixed;
+   top:0px;
+    
+}
